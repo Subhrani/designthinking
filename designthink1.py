@@ -1,5 +1,6 @@
 import requests
-import fitz  # PyMuPDF
+import pymupdf  # PyMuPDF
+fitz=pymupdf
 from fpdf import FPDF
 
 API_KEY = "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"
